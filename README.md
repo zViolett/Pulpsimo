@@ -20,7 +20,7 @@ cd pulp-riscv-gnu-toolchain
 
 make
 ```
-- You'll need to give permission for /opt folder or just use "sudo make" if you meet this error
+- You'll need to provide permission for /opt folder or just use "sudo make" if you meet this error
 ```Shell
 mkdir -p -- /opt/riscv /opt/riscv
 mkdir: cannot create directory ‘/opt/riscv’: Permission denied
