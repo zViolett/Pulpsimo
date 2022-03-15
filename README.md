@@ -26,7 +26,7 @@ mkdir -p -- /opt/riscv /opt/riscv
 mkdir: cannot create directory ‘/opt/riscv’: Permission denied
 mkdir: cannot create directory ‘/opt/riscv’: Permission denied
 ```
-### Add environment path and evn variable
+### Add environment path and env variable
 ```Shell
 export PATH=/opt/riscv:$PATH
 export PULP_RISCV_GCC_TOOLCHAIN=/opt/riscv
